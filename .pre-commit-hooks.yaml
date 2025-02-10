@@ -1,0 +1,4 @@
+- id: migrate-to-uv
+  name: Migrate to UV
+  language: rust
+  entry: migrate-to-uv
