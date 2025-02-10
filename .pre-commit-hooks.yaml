@@ -2,3 +2,4 @@
   name: Migrate to UV
   language: rust
   entry: migrate-to-uv
+  pass_filesname: false
