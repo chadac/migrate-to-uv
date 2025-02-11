@@ -128,6 +128,8 @@ impl Converter for Poetry {
         let mut visitor = PyprojectPrettyFormatter::default();
         visitor.visit_document_mut(&mut updated_pyproject);
 
+        // temp addition to make stuff sortable
+        updated_pyproject.sort_values();
         updated_pyproject.to_string()
     }
 
